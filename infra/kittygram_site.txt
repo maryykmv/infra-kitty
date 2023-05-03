@@ -1,0 +1,5 @@
+IP: 158.160.69.26;
+name_taski: https://prjct.ddns.net/;
+name_kittygram: https://kittygramm.ddns.net/;
+login: maryk;
+password: test123pwd;
