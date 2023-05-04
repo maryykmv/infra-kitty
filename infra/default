@@ -1,10 +1,6 @@
 server {
     server_name prjct.ddns.net;
 
-#    location /sentry-debug/ {
-#        proxy_pass http://127.0.0.1:8000;
-#    }
-
     location /admin/ {
         proxy_pass http://127.0.0.1:8000;
     }
@@ -42,12 +38,9 @@ server {
 server {	
     server_name kittygramm.ddns.net;
 
-#    location /sentry-debug/ {
-#        proxy_pass http://127.0.0.1:8000;
-#    }
-
     location /media/ {
         alias /var/www/kittygram/media/;
+	client_max_body_size 20M;
     }
     
     location /admin/ {
