@@ -15,7 +15,6 @@ ___
 
 
 ## Описание
-Пользователь может получить доступ к проекту Kittygram по доменному имени https://kittygramm.ddns.net
 При подключении к Kittygram доступны все возможности проекта: можно зарегистрироваться и авторизоваться, добавить нового котика на сайт или изменить существующего, а также просмотреть записи других пользователей.
 Секреты подключаются из файла .env.
 В проекте Kittygram подгружаются файлы со стилями для панели администратора.
@@ -34,7 +33,7 @@ ___
 
 - Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone git@github.com:wildcat3333/infra_sprint1.git
+git clone git@github.com:maryykmv/infra_sprint1.git
 cd infra_sprint1/backend
 ```
 
@@ -117,9 +116,4 @@ sudo ufw enable
 
 
 ## Автор проекта
-_[Мария Константинова](https://github.com/wildcat3333)_, python-developer
-
-___
-<p>
-    <span>© 2023, Contributors on git </span>
-</p>
+_[Мария Константинова](https://github.com/maryykmv)_, python-developer
